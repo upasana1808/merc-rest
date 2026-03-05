@@ -14,7 +14,7 @@ import java.util.Optional;
 @RestController // it exposes data and service in the form of JSON/XML
 @RequestMapping("/laptop")
 public class LaptopController {
-    @Autowired    
+    @Autowired
     LaptopService lr;
     @PostMapping("/add")
     public void add(@RequestBody Laptop lp)
